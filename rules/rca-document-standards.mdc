@@ -1,0 +1,16 @@
+---
+description: Standards for RCA markdown documents in this repository
+globs: rcas/**/*.md
+alwaysApply: false
+---
+
+# RCA document standards
+
+When creating or editing files under `rcas/**/*.md`:
+
+- Follow the section template used in approved RCAs: Date, Source, Summary, Impact, Timeline, Root Cause, Resolution / Fix, Preventive Actions / Action Items, Open Questions.
+- Do not invent facts, metrics, owners, or dates. Use **Not stated in source** or **owner to be assigned** when information is missing.
+- Preserve YAML frontmatter keys when present (`status`, `version`, `source_*`, `generated`, `approved_*`); do not strip approval metadata.
+- Use a markdown table for action items (columns: #, Action, Owner, Status) and for open questions when a table fits the existing doc style.
+- Keep incident-specific proprietary detail proportional to the source; do not add credentials, tokens, or unrelated customer data.
+- New files should use the naming pattern `YYYY-MM-DD-<short-slug>.md`.
