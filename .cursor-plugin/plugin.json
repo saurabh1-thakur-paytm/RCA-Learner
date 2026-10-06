@@ -1,0 +1,11 @@
+{
+  "name": "rca-learner",
+  "displayName": "RCA Learner",
+  "version": "1.0.0",
+  "description": "Skills and rules for drafting RCAs and learning from past incident RCA documents in this repository.",
+  "author": {
+    "name": "Saurabh Thakur"
+  },
+  "repository": "https://github.com/saurabh1-thakur-paytm/RCA-Learner",
+  "keywords": ["rca", "incident", "root-cause", "postmortem", "learning"]
+}
