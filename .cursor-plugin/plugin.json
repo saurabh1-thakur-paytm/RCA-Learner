@@ -7,5 +7,7 @@
     "name": "Saurabh Thakur"
   },
   "repository": "https://github.com/saurabh1-thakur-paytm/RCA-Learner",
-  "keywords": ["rca", "incident", "root-cause", "postmortem", "learning"]
+  "keywords": ["rca", "incident", "root-cause", "postmortem", "learning"],
+  "skills": "./skills/",
+  "rules": "./rules/"
 }
